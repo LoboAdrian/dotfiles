@@ -1,5 +1,4 @@
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
+" Specify a directory for plugins For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
@@ -48,7 +47,9 @@ let g:ale_fixers = {
     \ 'python': ['prettier'],
     \ 'javascript': ['prettier'],
     \ 'typescript': ['prettier'],
-    \ 'golang': ['prettier']
+    \ 'golang': ['prettier'],
+    \ 'c': ['prettier'],
+    \ 'cpp': ['prettier']
 \}
 
 " Linting
@@ -117,3 +118,5 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Ctrl + C to copy
+vmap <C-c> y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
