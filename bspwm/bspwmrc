@@ -23,4 +23,3 @@ bspc rule -a Screenkey manage=off
 
 $HOME/.config/polybar/launch.sh
 $HOME/adrian/.phicom
-feh --bg-fill /home/adrian/Downloads/wolf.jpeg
