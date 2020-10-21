@@ -1,3 +1,8 @@
+window:
+    padding:
+        x: 5
+        y: 5
+
 # VSCode's integrated terminal default colors
 # Primary and dimmed colors needed
 
@@ -32,19 +37,19 @@ background_opacity: 0.75
 
 font:
   normal:
-    family: Hack Nerd Font Mono 
+    family:  FiraCode
     style: Regular
 
   bold:
-    family: Hack Nerd Font Mono
+    family:  FiraCode
     style: Bold
 
   italic:
-    family: Hack Nerd Font Mono 
+    family:  FiraCode
     style: Italic
 
   bold_italic:
-    family: Hack Nerd Font Mono
+    family:  FiraCode
     style: Bold Italic
 
   size: 11
