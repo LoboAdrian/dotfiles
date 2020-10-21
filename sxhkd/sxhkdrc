@@ -8,15 +8,19 @@ super + Return
 
 # file explorer
 super + e
-    thunar
+    nautilus
 
 # browser
 super + b
-    vivaldi
+    firefox-developer-edition
+
+# slack
+super + c
+    slack
 
 # program launcher
 super + @space
-	rofi -show drun
+    rofi -show drun -icon-theme "Papirus" -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -28,7 +32,7 @@ super + Escape
 
 # quit/restart bspwm
 super + alt + {q,r}
-	bspc {quit,wm -r}
+	bspcr{quit,wm -r}
 
 # close and kill
 super + {_,shift + }w
