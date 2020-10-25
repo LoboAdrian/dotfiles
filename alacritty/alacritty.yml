@@ -7,19 +7,19 @@ background_opacity: 0.75
 
 font:
   normal:
-    family:  FiraCode
+    family:  UW ttyp0
     style: Regular
 
   bold:
-    family:  FiraCode
+    family:  UW ttyp0
     style: Bold
 
   italic:
-    family:  FiraCode
+    family:  UW ttyp0
     style: Italic
 
   bold_italic:
-    family:  FiraCode
+    family:  UW ttyp0
     style: Bold Italic
 
   size: 11
